@@ -6,9 +6,9 @@ node-red-openshift
 
 ### 已有openshift online v2账号的用户
 
-1. 安装过程中，在server.js文件中换上自己的用户名和用户密码，填入的用户密码需要进行base64加密。；
+1. 安装过程中，在server.js文件中换上自己的用户名和用户密码，填入的用户密码需要进行base64加密；
 
-2. 安装成功后，打开http://<appname>.rhcloud.com:8000，弹出登录对话框，填入前面的用户名和用户密码，即可进入node-red的编辑界面。
+2. 安装成功后，打开`http://<appname>.rhcloud.com:8000`，弹出登录对话框，填入前面的用户名和用户密码，即可进入node-red的编辑界面。
 
    > 注意：因为rhcloud.com的域名被墙，你可能需要翻墙才能看到建立的网站
 
