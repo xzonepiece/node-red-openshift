@@ -1,0 +1,51 @@
+{
+  "name": "Node-Red",
+  "version": "1.0.0",
+  "description": "Node-Red on OpenShift",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "node-red"
+  ],
+  "author": {
+    "name": "xzonepiece",
+    "email": "xzop215@gmail.com",
+    "url": "http://github.com/xzonepiece"
+  },
+  "homepage": "http://www.openshift.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+    "express": "4.x",
+    "node-red":">=0.9",
+    "atob":"1.1.2",
+    "basic-auth-connect":"1.0.0",
+    "node-red-dashboard":"2.0.1",
+    "node-red-node-pushbullet":"0.0.9",
+    "node-red-node-instagram":"0.1.0",
+    "node-red-node-flickr":"0.1.1",
+    "node-red-contrib-slack":"0.1.1",
+    "node-red-contrib-googlechart":"0.0.10",
+    "node-red-contrib-github":"0.1.5",
+    "node-red-contrib-json":"0.x",
+    "node-red-contrib-httpauth":"1.0.12",
+    "node-red-node-google":"0.x",
+    "node-red-node-youtube":"0.x",
+    "node-red-node-mongodb":"0.0.5",
+    "node-red-node-email":"0.1.11"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
